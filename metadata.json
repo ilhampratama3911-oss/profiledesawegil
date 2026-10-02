@@ -1,0 +1,6 @@
+{
+  "name": "Profil Desa Wegil",
+  "description": "Web Profil Interaktif Desa Wegil - Portal Informasi Kependudukan Resmi, Katalog Potensi UMKM, dan Profil Pemerintahan Desa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

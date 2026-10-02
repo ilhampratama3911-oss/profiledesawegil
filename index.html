@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Desa Wegil</title>
+    <meta name="description" content="Web Profil Interaktif Desa Wegil - Portal Informasi Kependudukan Resmi, Katalog Potensi UMKM, dan Profil Pemerintahan Desa." />
+    <meta property="og:title" content="Profil Desa Wegil" />
+    <meta property="og:description" content="Web Profil Interaktif Desa Wegil - Portal Informasi Kependudukan Resmi, Katalog Potensi UMKM, dan Profil Pemerintahan Desa." />
+    <meta name="theme-color" content="#020617" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('wegil_portal_theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark) || !saved) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
